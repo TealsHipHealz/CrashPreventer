@@ -1,0 +1,5 @@
+main: io.github.pokeba.BOPCrashfix.BOPCrashfixMain
+name: BOPCrashfix
+version: 1.0
+author: Poke
+description: Prevents crash with BOP fluids x Coke oven
