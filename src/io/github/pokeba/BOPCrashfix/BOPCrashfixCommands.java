@@ -10,10 +10,10 @@ import io.github.pokeba.BOPCrashfix.BOPCrashfixMain;
 
 public class BOPCrashfixCommands implements CommandExecutor
 {
-	private BOPCrashfixMain main;
-	public BOPCrashfixCommands(BOPCrashfixMain BOPCrashfix)
+	BOPCrashfixMain plugin;
+	public BOPCrashfixCommands(BOPCrashfixMain instance)
 	{
-		this.main = main;
+		plugin = instance;
 	}
 
 	@Override

@@ -8,12 +8,12 @@ import io.github.pokeba.BOPCrashfix.BOPCrashfixSub;
 
 public class BOPCrashfixMain extends JavaPlugin implements Listener
 {
-	private final BOPCrashfixSub eventListener = new BOPCrashfixSub(this);
 
 
+	@Override
 	public void onEnable() //on Plugin enable
 	{
-		getServer().getPluginManager().registerEvents(eventListener, this);
+		getServer().getPluginManager().registerEvents(new BOPCrashfixSub(this), this);
 	 	Bukkit.getServer().getPluginManager().registerEvents(this, this);
 	}
 		

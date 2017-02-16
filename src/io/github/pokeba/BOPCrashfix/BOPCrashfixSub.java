@@ -11,12 +11,11 @@ import io.github.pokeba.BOPCrashfix.BOPCrashfixMain;
 
 public class BOPCrashfixSub implements Listener
 {
-	private BOPCrashfixMain BOPCrashfix;
-	public BOPCrashfixSub(BOPCrashfixMain BOPCrashfix)
+	BOPCrashfixMain plugin;
+	public BOPCrashfixSub(BOPCrashfixMain instance)
 	{
-		this.BOPCrashfix = BOPCrashfix;
+		plugin = instance;
 	}
-
 	
 	@SuppressWarnings("deprecation")
 	@EventHandler
