@@ -19,7 +19,7 @@ public class bopfix extends JavaPlugin implements Listener
 		
 	public void onDisable() //On Plugin disable
 	{
-		Bukkit.getLogger().info("has be disabled");
+		Bukkit.getLogger().info("has been disabled");
 	}
 
 	@SuppressWarnings("deprecation")
