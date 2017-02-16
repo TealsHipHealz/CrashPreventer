@@ -1,27 +1,23 @@
-package io.github.pokeba.bopfix;
+package io.github.pokeba.BOPCrashfix;
 
-import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
-import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
-import org.bukkit.plugin.java.JavaPlugin;
 
-public class bopfix extends JavaPlugin implements Listener
+import io.github.pokeba.BOPCrashfix.BOPCrashfixMain;
+
+public class BOPCrashfixSub implements Listener
 {
-	public void onEnable() //on Plugin enable
+	private BOPCrashfixMain BOPCrashfix;
+	public BOPCrashfixSub(BOPCrashfixMain BOPCrashfix)
 	{
-	 	Bukkit.getServer().getPluginManager().registerEvents(this, this);
-	}
-		
-	public void onDisable() //On Plugin disable
-	{
-		Bukkit.getLogger().info("has been disabled");
+		this.BOPCrashfix = BOPCrashfix;
 	}
 
+	
 	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void onPlayerInteract(PlayerInteractEvent e)

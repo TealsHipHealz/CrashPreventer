@@ -1,5 +1,4 @@
-main: io.github.pokeba.bopfix.bopfix
-name: BOPLiquidFix
-version: 1.0
-author: Poke
-description: Fix crash when using BOP liquid on coke oven
+name:BOPCrashfix
+version:1.0
+author:Poke
+main:io.github.pokeba.BOPCrashfix.BOPCrashfixMainwrite some
