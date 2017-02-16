@@ -9,10 +9,10 @@ import org.bukkit.event.player.PlayerInteractEvent;
 
 import io.github.pokeba.BOPCrashfix.BOPCrashfixMain;
 
-public class BOPCrashfixSub implements Listener
+public class EventListener implements Listener
 {
 	BOPCrashfixMain plugin;
-	public BOPCrashfixSub(BOPCrashfixMain instance)
+	public EventListener(BOPCrashfixMain instance)
 	{
 		plugin = instance;
 	}

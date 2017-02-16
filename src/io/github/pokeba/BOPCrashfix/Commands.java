@@ -8,10 +8,10 @@ import org.bukkit.entity.Player;
 
 import io.github.pokeba.BOPCrashfix.BOPCrashfixMain;
 
-public class BOPCrashfixCommands implements CommandExecutor
+public class Commands implements CommandExecutor
 {
 	BOPCrashfixMain plugin;
-	public BOPCrashfixCommands(BOPCrashfixMain instance)
+	public Commands(BOPCrashfixMain instance)
 	{
 		plugin = instance;
 	}
@@ -33,4 +33,3 @@ public class BOPCrashfixCommands implements CommandExecutor
 		return false;
 	}
 }
-
