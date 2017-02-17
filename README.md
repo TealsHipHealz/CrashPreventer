@@ -1,2 +1,2 @@
-# BOPLiquidFix
-Prevent player from crashing server when using BOP fluids in coke ovens in Infinity 2.6.0 
+# CrashPreventer
+Prevent player from crashing server when putting modded items items where it should not be in Infinity 2.6.0 

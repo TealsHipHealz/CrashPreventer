@@ -1,5 +1,10 @@
-main: io.github.pokeba.BOPCrashfix.BOPCrashfixMain
-name: BOPCrashfix
+main: io.github.pokeba.CrashPreventer.CrashPreventerMain
+name: CrashPreventer
 version: 1.0
 author: Poke
-description: Prevents crash with BOP fluids x Coke oven
+description: Prevent crash from modded items being put where they should not be.
+commands:
+ crashpreventer:
+  description: Prevents player from putting blacklisted item in blacklisted block
+  permission: bopcrashfix.basic
+  permission-message: You don't have the permissions to do that!
