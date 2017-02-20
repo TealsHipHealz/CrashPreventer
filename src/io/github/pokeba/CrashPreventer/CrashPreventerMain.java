@@ -11,8 +11,8 @@ public class CrashPreventerMain extends JavaPlugin implements Listener
 	{
 		getServer().getPluginManager().registerEvents(new EventListener(this), this);
 		this.getCommand("crashpreventer").setExecutor(new Commands(this));
-		getConfig().options().copyDefaults(true);
-        saveDefaultConfig(); //to call it: plugin.getConfig().getString("bob")
+		//getConfig().options().copyDefaults(true);
+        //saveDefaultConfig(); //to call it: plugin.getConfig().getString("bob")
 	 	Bukkit.getLogger().info("has been enabled");
 	}
 		
